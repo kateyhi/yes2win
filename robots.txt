@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yes2win.info/sitemap.xml
+Sitemap: https://yes2win.top/sitemap.xml
