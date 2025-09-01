@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
 Sitemap: https://yes2win.top/sitemap.xml
