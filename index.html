@@ -1,94 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-      <meta name="title" content="Yes2Win | Rewards">
-      <title>Yes2Win | Rewards</title>
-      <meta name="description" content="yes2win.top - gambling experiences with exciting rewards! Engage in raffles and enjoy unique bonuses.">
-      <meta name="keywords" content="yes2win">
-      <meta name="robots" content="index, follow">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Yes2Win - Your Trusted Online Casino in Malaysia</title>
+    <meta name="description" content="Secure and trusted official Yes2Win login in Malaysia - no download needed for Android and iOS.">
+    <meta name="keywords" content="yes2win, yes2win malaysia">
+    <meta name="robots" content="index, follow">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://yes2win.top/">
+      <meta property="og:title" content="Yes2Win - Your Trusted Online Casino in Malaysia">
+      <meta property="og:description" content="Secure and trusted official Yes2Win login in Malaysia - no download needed for Android and iOS.">
+
       <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
       <link rel="icon" type="image/x-icon" href="./favicon.ico">
       <link rel="manifest" href="./site.webmanifest">
-      <link rel="canonical" href="https://yes2win.top/">
       <meta name="google-site-verification" content="PIOPtcRoLpwQO7RiLOj6pGuBfPtIr8-_pbiToUvVsXY" />
-      <script type="application/ld+json">
-         {
-           "@context": "https://schema.org",
-           "@type": "Organization",
-           "name": "Yes2Win",
-           "alternateName": "Yes2Win",
-           "url": "https://yes2win.top/"
-         }          
-      </script>
-      <style>
-         * {
-         font-size: 0;
-         }
-         body {
-         background-color: #000000;
-         margin: unset;
-         }
-         .pc-container {
-         position: relative;
-         overflow: hidden;
-         }
-         .pc-container > .background {
-         width: 100%;
-         }
-         .pc-container > a {
-         position: absolute;
-         top: 40%;
-         left: 50%;
-         width: 35%;
-         transform: translate(-50%, 0);
-         }
-         .pc-container > a > .button {
-         width: 100%;
-         }
-         .mobile-container {
-         position: relative;
-         display: none;
-         overflow: hidden;
-         }
-         .mobile-container > .background {
-         width: 100%;
-         }
-         .mobile-container > a {
-         position: absolute;
-         top: 53%;
-         left: 50%;
-         width: 80%;
-         transform: translate(-50%, 0);
-         }
-         .mobile-container > a > .button {
-         width: 100%;
-         }
-         @media only screen and (max-width: 768px){
-         .pc-container {
-         display: none;
-         }
-         .mobile-container {
-         display: block;
-         }
-         }
-      </style>
-   </head>
-   <body>
-      <div class="pc-container">
-         <img src="background-pc.webp" class="background">
-         <a href="https://www.yes2win.vip/Signup/UAAYJ0O0R" target="_blank">
-         <img src="button-pc.gif" class="button">
-         </a>
-      </div>
-      <div class="mobile-container">
-         <img src="background-mobile.webp" class="background">
-         <a href="https://www.yes2win.vip/Signup/UAAYJ0O0R" target="_blank">
-         <img src="button-mobile.gif" class="button">
-         </a>
-      </div>
-   </body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Yes2Win",
+  "alternateName": "Yes2Win",
+  "url": "https://yes2win.top/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://yes2win.top/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+    <link rel="stylesheet" href="./all.min.css">
+    
+    <style>
+        /* Global Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        a { text-decoration: none; color: #26482e; }
+        
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        
+        .btn { 
+            display: inline-block; 
+            padding: 12px 25px; 
+            background-color: #145423; 
+            color: white; 
+            border-radius: 4px; 
+            font-weight: bold; 
+            transition: all 0.3s ease; 
+        }
+        .btn:hover { background-color: #0d3817; transform: translateY(-2px); }
+
+        /* Navigation */
+        .navbar {
+            background-color: #f8f8f8;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 40px; width: auto; }
+        .nav-side { flex: 1; } /* Helper for centering logo */
+
+        /* Hero Section */
+        .hero {
+            min-height: 80vh;
+            background: #f8f8f8;
+            color: #000;
+            display: flex;
+            align-items: center;
+            margin-top: 60px;
+            padding: 40px 0;
+        }
+        .hero .container { display: flex; align-items: center; gap: 40px; }
+        .hero-content, .hero-image { flex: 1; }
+        .hero-image img { max-width: 100%; border-radius: 8px; }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; }
+        .hero p { font-size: 18px; margin-bottom: 30px; }
+
+        /* Games Grid */
+        .games-section { padding: 80px 0; background: #fff; }
+        .section-title { text-align: center; margin-bottom: 40px; }
+        .games-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+            gap: 20px; 
+            margin-bottom: 50px; 
+        }
+        .game-card { 
+            background: #fff; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            transition: transform 0.3s; 
+            border: 1px solid #fff;
+        }
+        .game-card:hover { transform: translateY(-10px); }
+        .game-card img { width: 100%; display: block; }
+
+        .games-content { max-width: 800px; margin: 0 auto; }
+        .games-content h1 { font-size: 28px; margin-bottom: 20px; }
+        .games-content ul { padding-left: 20px; margin-bottom: 20px; }
+
+        /* Footer */
+        footer { background: #26482e; color: #ccc; padding: 40px 0 20px; text-align: center; }
+        .footer-links { margin: 20px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .footer-links a { color: #ccc; font-size: 14px; }
+        .footer-links a:hover { color: #000; }
+        .footer-bottom { border-top: 1px solid #222; padding-top: 20px; font-size: 13px; }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .hero .container { flex-direction: column; text-align: center; }
+            .hero-image { order: -1; }
+            .hero h1 { font-size: 32px; }
+            .games-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-side">
+            <a href="/"><img src="./assets/homepage.png" alt="Home" style="height: 30px;"></a>
+        </div>
+        <div class="logo">
+            <img src="./files/logo.webp" alt="Yes2Win Logo">
+        </div>
+        <div class="nav-side"></div> </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-image">
+            <img src="./files/banner_en.png" alt="Yes2Win Header">
+        </div>
+        <div class="hero-content">
+            <p>Since its launch in 2025, Yes2Win has quickly risen as a trusted destination for online casino gaming in Malaysia.</p>
+            <a href="https://www.yes2win.vip/Signup/UAAYJ0O0R" class="btn" target="_blank">Start Playing Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="games-section">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Yes2Win Hot Live Games</h2>
+        </div>
+        <div class="games-grid">
+            <div class="game-card"><img src="./assets/177777868592.png" alt="Yes2Win Oppo Live"></div>
+            <div class="game-card"><img src="./assets/177777870543.png" alt="Yes2Win Joker Baccarat"></div>
+            <div class="game-card"><img src="./assets/177777873989.png" alt="Yes2Win Pragmatic Play"></div>
+            <div class="game-card"><img src="./assets/177777875877.png" alt="Yes2Win CT855 Live"></div>
+            <div class="game-card"><img src="./assets/177777878235.png" alt="Yes2Win Dream Gaming"></div>
+            <div class="game-card"><img src="./assets/177777879915.png" alt="Yes2Win AE Sexy Live"></div>
+            <div class="game-card"><img src="./assets/177777882082.png" alt="Yes2Win Playtech Live"></div>
+            <div class="game-card"><img src="./assets/177777886927.png" alt="Yes2Win Tiger Nine Live"></div>
+            <div class="game-card"><img src="./assets/177777891760.png" alt="Yes2Win All Bet Live"></div>
+            <div class="game-card"><img src="./assets/177919783756.png" alt="Yes2Win Choice Live"></div>
+        </div>
+
+        <div class="section-title">
+            <h2>Yes2Win Hot Sports Games</h2>
+        </div>
+        <div class="games-grid">
+            <div class="game-card"><img src="./assets/177777782575.png" alt="Yes2Win 4D"></div>
+            <div class="game-card"><img src="./assets/177814405464.png" alt="Yes2Win QQPK"></div>
+            <div class="game-card"><img src="./assets/17777790116.png" alt="Yes2Win Obet33"></div>
+            <div class="game-card"><img src="./assets/177777893858.png" alt="Yes2Win One BX"></div>
+            <div class="game-card"><img src="./assets/177777895862.png" alt="Yes2Win IBCBet"></div>
+            <div class="game-card"><img src="./assets/177777897479.png" alt="Yes2Win M9Bet"></div>
+            <div class="game-card"><img src="./assets/177777899247.png" alt="Yes2Win WBet"></div>
+            <div class="game-card"><img src="./assets/177777903053.png" alt="Yes2Win SV388"></div>
+            <div class="game-card"><img src="./assets/177777904676.png" alt="Yes2Win S128"></div>
+            <div class="game-card"><img src="./assets/177777906310.png" alt="Yes2Win RCB988"></div>
+        </div>
+
+        <div class="section-title">
+            <h2>Yes2Win Hot Slots Games</h2>
+        </div>
+        <div class="games-grid">
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+            <div class="game-card"><img src="./" alt="Yes2Win"></div>
+        </div>
+
+
+        <div class="games-content">
+<h1>Yes2Win - Your Trusted Online Casino in Malaysia</h1>
+
+<p> Leveraging over 10 years of professional experience, <a href="https://yes2win.top/"><b>Yes2Win</b></a> has established itself as Malaysia’s most trusted Online Casino Platform, centered around the core values of Safety & Compliance, Exceptional Entertainment, and Brand Transparency.</p>
+
+<h2>Easy Registration for All Member</h2>
+<p>Creating an account is simple and takes under a minute. New players can join the platform through the streamlined <a href="https://www.yes2win.vip/Signup/UAAYJ0O0R"><b>registration</b></a> portal available on both desktop and mobile browsers.</p>
+
+<h2>Security & Trust</h2>
+<p>Your Safety is Our Priority at <a href="https://yes2win.top/"><b>Yes2Win</b></a>, we understand that safety is the foundation of every great online casino experience. That’s why we’ve built our platform with industry-leading security protocols, giving every player peace of mind — whether you’re placing a sports bet, enjoying a live casino session, or completing a <a href="https://www.yes2win.vip/Signup/UAAYJ0O0R"><b>Yes2Win</b></a> login.</p>
+
+</div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="https://yes2win.top/">About</a>
+            <a href="https://yes2win.top/">Contact</a>
+            <a href="https://yes2win.top/">FaQ</a>
+            <a href="https://yes2win.top/">Privacy Policy</a>
+            <a href="https://yes2win.top/">Register</a>
+        </div>
+<div class="footer-bottom">
+    <p>
+        © Copyright 2025 - 2026 
+        <a href="https://yes2win.top/" style="color:#fff;">Yes2Win</a> 
+        All Rights Reserved.
+    </p>
+</div>
+    </div>
+</footer>
+
+<script>
+    // Optimized Scroll Effect
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        navbar.style.padding = window.scrollY > 50 ? '8px 0' : '15px 0';
+    });
+</script>
+
+</body>
 </html>
